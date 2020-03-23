@@ -19,3 +19,7 @@ input {
   border-radius: 30px;
   height: 30px;
 }
+
+.scene {
+  text-align: center;
+}
