@@ -11,15 +11,17 @@
     <h1 align="center">Crypto Project</h1>
 
     <div class="scene">
-      <form id="encrypt">
+      <form onsubmit="return false;">
         <input type="text" id="decryptedText">
-        <button id="submit">Encrypt</button>
+        <button id="encrypt">Encrypt</button>
       </form>
-      <form id="decrypt">
+      <form onsubmit="return false;">
         <input type="text" id="encryptedText">
-        <button id="submit">Decrypt</button>
+        <button id="decrypt">Decrypt</button>
       </form>
     </div>
+    
+    <script type="text/javascript" src="js/main.js"></script>
 
   </body>
 </html>
