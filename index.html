@@ -14,6 +14,19 @@
     <div class="scene">
       <button id="search"><i class="fa fa-search"></i></button>
       <button id="algorithm"><i class="fa fa-folder"></i></button>
+
+      <form onsubmit="return false;">
+        <select name="ciphers[]">
+          <option value="AES">AES</option>
+          <option selected value="BASE64">Base64</option>
+          <option value="BASE32">Base32</option>
+          <option value="HASH">Hash</option>
+          <option value="CAESAR">Caesar Cipher</option>
+          <option value="RSA">RSA</option>
+          <option value="SHA256">SHA256</option>
+          <option value="SHA512">SHA512</option>
+        </select>
+      </form>
       
       <form onsubmit="return false;">
         <input type="text" id="decryptedText">
